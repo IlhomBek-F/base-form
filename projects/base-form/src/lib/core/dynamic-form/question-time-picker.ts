@@ -1,4 +1,4 @@
-import { QuestionOptionsModel } from "@core/models/question-base";
+import { QuestionOptionsModel } from "../../core/models/question-base";
 import { QuestionTypeEnum } from "../enums/question-type.enum";
 import { QuestionBase } from "./question-base";
 

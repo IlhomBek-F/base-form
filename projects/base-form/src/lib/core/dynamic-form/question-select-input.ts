@@ -1,8 +1,8 @@
-import { QuestionOptionsModel } from '@core/models/question-base';
-import { QuestionTypeEnum } from '../enums/question-type.enum';
-import {QuestionBase} from './question-base';
-import { OptionTypeEnum } from '@core/enums/option-type.enum';
-import { AsyncOptionEnum } from '@core/enums/async-option.enum';
+import { AsyncOptionEnum } from "../enums/async-option.enum";
+import { OptionTypeEnum } from "../enums/option-type.enum";
+import { QuestionTypeEnum } from "../enums/question-type.enum";
+import { QuestionOptionsModel } from "../models/question-base";
+import { QuestionBase } from "./question-base";
 
 interface SelectInputOptionsAsync extends SelectInputOptionsBase {
   optionType: OptionTypeEnum.ASYNC;

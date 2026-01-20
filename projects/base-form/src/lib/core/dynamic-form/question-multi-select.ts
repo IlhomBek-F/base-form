@@ -1,7 +1,7 @@
+import { AsyncOptionEnum } from '../enums/async-option.enum';
+import { OptionTypeEnum } from '../enums/option-type.enum';
 import { QuestionTypeEnum } from '../enums/question-type.enum';
-import {QuestionBase} from './question-base';
-import { OptionTypeEnum } from '@core/enums/option-type.enum';
-import { AsyncOptionEnum } from '@core/enums/async-option.enum';
+import { QuestionBase } from './question-base';
 import { SelectInputOptions } from './question-select-input';
 
 export class QuestionMultiSelect extends QuestionBase {

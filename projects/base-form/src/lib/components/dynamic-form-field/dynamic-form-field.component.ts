@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, CUSTOM_ELEMENTS_SCHEMA, input, NO_ERRORS_SCHEMA } from '@angular/core';
 import { FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { TextInputComponent } from "../text-input/text-input.component";
 import { SelectInputComponent } from "../select-input/select-input.component";

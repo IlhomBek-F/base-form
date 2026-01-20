@@ -4,6 +4,7 @@ import { ControlValueAccessor, FormsModule, NG_VALUE_ACCESSOR } from '@angular/f
 import { SelectModule } from 'primeng/select';
 import { OptionTypeEnum } from '../../core/enums/option-type.enum';
 import { of } from 'rxjs';
+import { AsyncOptionEnum } from '../../core/enums/async-option.enum';
 
 const VALUE_ACCESSOR_PROVIDER = {
       provide: NG_VALUE_ACCESSOR,
@@ -29,7 +30,7 @@ export class SelectInputComponent implements ControlValueAccessor{
    onChangeEmit = output<any>()
    required = input()
    optionType = input<OptionTypeEnum>(OptionTypeEnum.EAGER)
-  //  asyncOptionType = input<AsyncOptionEnum>()
+   asyncOptionType = input<AsyncOptionEnum>()
 
    loading = false;
 
